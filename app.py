@@ -1,5 +1,4 @@
 import streamlit as st
-from tools.speech_to_text import speech_to_text
 from tools.pdf_parser import extract_text_from_pdf
 from agents.resume_agent import analyze_resume
 from tools.text_to_speech import text_to_speech
